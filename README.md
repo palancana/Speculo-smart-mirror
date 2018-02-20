@@ -57,7 +57,7 @@ The mirror works by having several widgets distributed on the display. They show
 
 The web app runs on anything that can run a web browser. The only thing that you need to choose is which display is going to be the mirror.
 
-On that device, yo can go directly to [this webpage](http://www.speculo.es/speculo/) or download the apps that we have in the [releases](/releases/latest) GitHub page.
+On that device, yo can go directly to [this webpage](http://www.speculo.es/speculo/) or download the apps that we have in the [releases](https://github.com/palancana/Speculo-smart-mirror/releases/) GitHub page.
 
 The apps are available for **Mac**, **Windows** and **Linux**. We also offer a script for the **Raspberry Pi** made for Raspbian, so every time the device turns on it goes to the Speculo login screen. This is the way we implemented our hardware device test.
 
@@ -69,25 +69,21 @@ Once you have the web or app running on the desired mirror display, grab your ph
 
 In an updated iOS and some Android devices you can just point your phone with the camera app opened and will recognize the unique login link. Otherwise you can download a QR reader app from the App Store or Play Store.
 
-Once you have scanned the QR code, you need to register or login with your credentials.
-
-![register](img/register.gif)
-
-After login, you can change your settings on your smartphone and they will be updated on real time on your mirror.
+Once you have scanned the QR code, you need to register or login with your credentials. After login, you can change your settings on your smartphone and they will be updated on real time on your mirror.
 
 ![widget settings](img/widget-settings.gif)
 
 ## Video demonstration
 
-If this still does not sell the project to you, watch the demo video that we made clicking on the image:
+If this still does not sell the project to you, watch the demo video that we made clicking on the gif:
 
-[![vimeo-video-screenshot](img/vimeo-video-screenshot)](https://www.youtube.com/watch?v=nX_inqaAzOI&feature=youtu.be&hd=1 "RMI Fibonacci Java")
+[![vimeo-video-screenshot](img/video-screenshot.gif)](https://vimeo.com/256628119)
 
 ## Hardware
 
 We were devoted to create an easy to use and expandable software, but also developed a first hardware approach so everybody could see our vision:
 
-![hardware](./img/cross-platform.png)
+![hardware](./img/hardware.png)
 
 The device we used is an old computer display with an attached Raspberry Pi. In front of the display we placed a cheap mirror-like vinyl which did the job. Remember that this was made for test purposes and the final hardware idea can be much superior using different products (such as a real mirror-like screen crystal).
 
